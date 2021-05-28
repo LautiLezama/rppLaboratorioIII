@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/parcial.css">
+    <script src="./js/parcial.js"></script>
+    <title>Parcial</title>
+</head>
+
+<body>
+    <div class="loader" id="spinner" hidden></div>
+
+    <div id="divAgregar" class="contenedor" hidden>
+        <label for="">Marca</label>
+        <input type="text" id="txtMarca">
+        <label for="">Modelo</label>
+        <input type="text" id="txtModelo">
+        <label for="">Año</label>
+        <br><br>
+        <select name="Año" id="slcAño">
+        </select> <br> <br>
+        <input type="button" id="btnGuardar" value="Guardar" class="btn">
+        <input type="button" id="btnCancelar" value="Cancelar" class="btn">
+    </div>
+
+
+    <input type="button" id="btnAgregar" value="Agregar">
+    <h2>Lista de Autos</h2>
+    <table id="tblGuardados">
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Año</th>
+            </tr>
+        </thead>
+        <tbody id="tblCuerpo">
+
+        </tbody>
+    </table>
+</body>
+
+</html>

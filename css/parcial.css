@@ -1,0 +1,140 @@
+#tblGuardados
+{
+    margin: 3rem auto;
+    width: 50%;
+    background-color: blue;
+    border-collapse: collapse;
+}
+thead
+{
+    box-shadow: 8px 6px 0px 0px rgba(0,0,0,0.75);
+}
+
+th
+{
+    color: white;
+    text-align: center;
+}
+
+td
+{
+    text-align: center;
+    background-color: #F7E798;
+    padding-top: 5px;
+}
+
+.loader
+{
+    z-index: 1;
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    left: 43%;
+    top: 30%;
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db; 
+    border-radius: 50%;
+    width: 120px;
+    opacity: 50%;
+    height: 120px;
+    animation: spin 2s infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.conError
+{
+    border: 2px solid red;
+}
+.sinError
+{
+    border: 1px solid black;
+}
+
+.contenedor
+{
+    
+    background-color:cornflowerblue;
+    width: 50%;
+    height: 40%;
+    left: 25%;
+    top: 20%;
+    box-shadow: 8px 6px 0px 0px rgba(0,0,0,0.75);
+    position: fixed;
+}
+
+input
+{
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+
+.btn
+{
+    width: 30%;
+    height: 2.5rem;
+}
+
+#btnGuardar
+{
+    position: absolute;
+    left: 0;
+    background-color: blue;
+    color: white;
+}
+
+#btnCancelar
+{
+    background-color: red;
+    color: white;
+    right: 0;
+    position: absolute;
+}
+
+label
+{
+    letter-spacing: 1px;
+    font-weight: bold; 
+}
+
+h2
+{
+   
+    margin: 3rem auto;
+    width: 50%;
+}
+
+#btnAgregar
+{
+    position: absolute;
+    right: 25%;
+    width: 10%;
+    height: 2.5rem;
+
+}
+
+select
+{
+    border: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #F7E798;
+}
+
+#slcAño
+{
+    background-color: white;
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 1.5%;
+    float:right;
+    margin: 0 auto;
+}
+
